@@ -1,11 +1,11 @@
+name: LOTA Release
+
 on:
     release:
       types:
         - published
   
-  name: release
-  
-  jobs:
+jobs:
     pypi:
       name: upload release to PyPI
       runs-on: ubuntu-latest
